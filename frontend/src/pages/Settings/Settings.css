@@ -1,0 +1,43 @@
+.cz-settings-page {
+  width: 100%;
+  max-width: 960px;
+}
+
+.cz-settings-page h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #14245C;
+  margin-bottom: 20px;
+}
+
+.cz-settings-tabs {
+  display: flex;
+  gap: 8px;
+  border-bottom: 1px solid #E2E4EC;
+  margin-bottom: 24px;
+}
+
+.cz-settings-tabs button {
+  background: none;
+  border: none;
+  padding: 12px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #8A93AB;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.cz-settings-tabs button:hover {
+  color: #2F5FE0;
+}
+
+.cz-tab-active {
+  color: #2F5FE0 !important;
+  border-bottom: 2px solid #2F5FE0 !important;
+}
+
+.cz-settings-placeholder {
+  color: #8A93AB;
+  font-size: 14px;
+}

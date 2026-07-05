@@ -1,0 +1,96 @@
+.cz-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #fff;
+}
+
+.cz-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.cz-topbar {
+  background: #fff;
+  padding: 14px 32px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-bottom: 1px solid #EDEEF3;
+}
+
+.cz-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #14245C;
+}
+
+.cz-brand-icon {
+  font-size: 20px;
+}
+
+.cz-search {
+  border: 1px solid #E2E4EC;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 14px;
+  width: 260px;
+  outline: none;
+}
+
+.cz-topbar-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cz-org {
+  font-size: 14px;
+  color: #14245C;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cz-edition {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 1.3;
+  color: #4A5170;
+}
+
+.cz-edition a {
+  color: #2F5FE0;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cz-icon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.cz-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #E63986;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.cz-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}

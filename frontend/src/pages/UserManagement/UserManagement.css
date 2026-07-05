@@ -1,0 +1,124 @@
+.cz-um-page { width: 100%; max-width: 960px; }
+
+.cz-um-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.cz-um-header h1 { font-size: 22px; font-weight: 700; color: #14245C; margin: 0 0 6px 0; }
+.cz-um-header p { font-size: 14px; color: #8A93AB; margin: 0; }
+
+.cz-um-add-btn {
+  background: #2F5FE0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.cz-um-add-btn:hover { background: #244BC0; }
+
+.cz-um-table-card {
+  background: #fff;
+  border: 1px solid #E2E4EC;
+  border-radius: 12px;
+  padding: 8px 24px;
+}
+
+.cz-um-table { width: 100%; border-collapse: collapse; }
+.cz-um-table th {
+  text-align: left;
+  font-size: 12px;
+  color: #8A93AB;
+  font-weight: 600;
+  padding: 14px 8px;
+  border-bottom: 1px solid #EDEEF3;
+}
+.cz-um-table td {
+  padding: 14px 8px;
+  font-size: 14px;
+  color: #14245C;
+  border-bottom: 1px solid #F5F6FA;
+}
+
+.cz-role-select {
+  border: 1px solid #E2E4EC;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 13px;
+  outline: none;
+}
+
+.cz-status-badge {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+.cz-active { background: #E4F7EE; color: #1AAE6F; }
+.cz-invited { background: #FFF6E0; color: #E9B949; }
+
+.cz-remove-btn {
+  background: none;
+  border: none;
+  color: #E63946;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Modal */
+.cz-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 31, 77, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.cz-modal {
+  background: #fff;
+  width: 380px;
+  padding: 28px;
+  border-radius: 14px;
+}
+
+.cz-modal h2 { font-size: 18px; font-weight: 700; color: #14245C; margin: 0 0 20px 0; }
+.cz-modal label { font-size: 13px; font-weight: 600; color: #14245C; margin-bottom: 6px; display: block; }
+.cz-modal input, .cz-modal select {
+  width: 100%;
+  border: 1px solid #E2E4EC;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.cz-modal-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 8px; }
+.cz-cancel-btn {
+  background: #F5F6FA;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.cz-invite-btn {
+  background: #2F5FE0;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}

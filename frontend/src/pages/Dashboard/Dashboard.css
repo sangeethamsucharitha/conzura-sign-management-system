@@ -1,0 +1,34 @@
+.cz-dashboard-cards {
+  display: flex;
+  gap: 32px;
+}
+
+.cz-action-card {
+  width: 260px;
+  height: 200px;
+  background: #fff;
+  border: 1px solid #E2E4EC;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  cursor: pointer;
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+
+.cz-action-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+
+.cz-action-icon {
+  font-size: 40px;
+}
+
+.cz-action-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #14245C;
+}
